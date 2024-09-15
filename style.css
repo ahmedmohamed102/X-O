@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+.game{
+    margin: auto;
+    padding-top: 150px;
+    width: 288px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.itme{
+    color: rgb(255, 255, 255);
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+span{
+    color: rgb(0, 255, 234);
+}
+
+.square{
+    width: 83px;
+    height: 80px;
+    float: left;
+    margin: 5px;
+    font-size: 50px;
+    border: 1px solid white;
+    font-size: 60px;
+}
+
+.square:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
